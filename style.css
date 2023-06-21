@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;   
+}
+body{
+    box-sizing: border-box;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 50px;
+    border: 1px solid #EBEBEB;
+
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  width: 100%;
+  max-width: 1800px;
+  height: auto;
+  margin: 0 auto;
+
+}
+
+
+li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin: 25px 20px;
+    
+    
+}
+
+.menuItem{
+
+    color: #757575;
+    size: 13px;
+    margin-top: 10px;
+    gap: 60px;
+    
+
+}
+
+
+.btn{
+    background:#1A8917;
+    color: white;
+    border-radius: 20px;
+    size: 5px;
+    border: none;
+    height: 30px;
+    width: 60px;
+    margin-top: 40px;
+
+    
+}
+.logo{
+   display: flex;
+   margin-top: 55px;
+   margin-left: 55px;
+   gap: 20px;
+   justify-content: space-between;
+}
+
+.input{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 20px;
+    height: 40px;
+    top: 16px;
+    width: 240px;
+    border: none;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 50%;
+}
+
+.lupa{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 11%;
+    
+}
+
+.lapis{
+
+height: 24px;
+width: 24px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+margin-top: 45px;
+gap: 20px;
+
+}
+
+.usuario{
+    height: 32px;
+width: 32px;
+left: 0px;
+top: 0px;
+border-radius: 16px;
+margin-top: 35px;
+
+
+}
+
+.setinha{
+height: 12px;
+width: 12px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+margin-top: 45px;
+
+}
+
+.foto{
+display: flex;
+align-items: baseline;
+margin-left: 20%;
+height: 24px;
+width: 24px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
+}
+
+.murillo{
+    display: flex;
+    align-items: baseline;
+    margin-left: 22%;
+    margin-top: -20px;
+    margin-bottom: 20px;
+   
+}
+
+.jul{
+    display: flex;
+    align-items: baseline;
+    margin-left: 36%;
+    margin-top: -38px;
+    margin-bottom: 20px;
+    color: #757575;
+
+}
+
+.titulo{
+height: 24px;
+width: 414px;
+left: 0px;
+top: 0px;
+border-radius: nullpx;
+    margin-left: 22%;
+    font-family: Inter;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: -17px;
+margin-bottom: 10px;
+
+}
+
+.artigo{
+height: 72px;
+width: 506px;
+left: 0px;
+top: 0px;
+border-radius: nullpx;
+
+font-family: 'Source Serif 4', serif;;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 22%;
+
+}
+
+.medium{
+
+    margin-left: 22%;
+    margin-top: 30px;
+}
+
+.min{
+    margin-left: 30%;
+    margin-top: -18px;
+    color: #757575;
+
+   
+}
+
+.adicionar{
+    height: 41px;
+width: 41px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+margin-left: 50%;
+margin-top: -20px;
+
+}
+
+.Brasil{
+    height: 112px;
+    width: 112px;
+    left: 568px;
+    top: 0px;
+    border-radius: 0px;
+    
+ margin-left: 60%;
+ margin-top: -200px;
+}
